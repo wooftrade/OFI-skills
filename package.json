@@ -1,0 +1,15 @@
+{
+  "name": "ofi-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent skills for interacting with Ondo Finance assets (Ondo Global Markets RWA market feed).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test skills/**/tests/*.test.js",
+    "test:ondo-asset-info": "node --test skills/ondo-asset-info/tests/fetch_market.test.js",
+    "ondo:market": "node skills/ondo-asset-info/scripts/fetch_market.js"
+  }
+}

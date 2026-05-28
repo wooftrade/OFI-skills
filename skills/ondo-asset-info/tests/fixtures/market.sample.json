@@ -1,0 +1,215 @@
+{
+  "lastUpdatedAt": 1779984704862,
+  "assets": [
+    {
+      "symbol": "AAPLon",
+      "ticker": "AAPL",
+      "assetName": "Apple",
+      "iconSrc": "https://cdn.ondo.finance/tokens/logos/aaplon_160x160.png",
+      "tags": [
+        {
+          "categoryLayer": "1",
+          "categorySlug": "asset-class",
+          "categoryLabel": "Asset Class",
+          "tagSlug": "equities",
+          "tagLabel": "Equities"
+        },
+        {
+          "categoryLayer": "2",
+          "categorySlug": "instrument-type",
+          "categoryLabel": "Instrument Type",
+          "tagSlug": "stock",
+          "tagLabel": "Stock"
+        },
+        {
+          "categoryLayer": "3a",
+          "categorySlug": "sector-industry",
+          "categoryLabel": "Sector/Industry",
+          "tagSlug": "technology",
+          "tagLabel": "Technology"
+        },
+        {
+          "categoryLayer": "3b",
+          "categorySlug": "type-factor-risk-profile",
+          "categoryLabel": "Type/Factor/Risk Profile",
+          "tagSlug": "large-cap",
+          "tagLabel": "Large Cap"
+        },
+        {
+          "categoryLayer": "4",
+          "categorySlug": "region-market-exposure",
+          "categoryLabel": "Region",
+          "tagSlug": "us",
+          "tagLabel": "US"
+        }
+      ],
+      "createdAt": 1767828526586,
+      "primaryMarket": {
+        "symbol": "AAPLon",
+        "price": "311.43",
+        "priceChange24h": "-0.69",
+        "priceChangePct24h": "-0.22",
+        "priceHistory24h": [
+          { "timestamp": 1779897600000, "price": "312.12" },
+          { "timestamp": 1779898500000, "price": "311.80" }
+        ],
+        "totalHolders": 4237,
+        "sharesMultiplier": "1.0",
+        "tradableSessions": ["premarket", "regular", "postmarket", "overnight"]
+      },
+      "underlyingMarket": {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "priceHigh52w": "313.26",
+        "priceLow52w": "195.07",
+        "volume": "14030000",
+        "averageVolume": "55000000",
+        "sharesOutstanding": "14600000000",
+        "marketCap": "4560000000000"
+      },
+      "timestamp": 1779984704000,
+      "addresses": [
+        {
+          "chainName": "BSC",
+          "ondoGmNetworkChainId": "bsc-56",
+          "address": "0x390a684ef9cade28a7ad0dfa61ab1eb3842618c4",
+          "decimals": 18
+        },
+        {
+          "chainName": "ETHEREUM",
+          "ondoGmNetworkChainId": "ethereum-1",
+          "address": "0x14c3abf95cb9c93a8b82c1cdcb76d72cb87b2d4c",
+          "decimals": 18
+        },
+        {
+          "chainName": null,
+          "ondoGmNetworkChainId": "solana-900",
+          "address": "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo",
+          "decimals": 9
+        }
+      ],
+      "tradable": true,
+      "pause": null
+    },
+    {
+      "symbol": "SPYon",
+      "ticker": "SPY",
+      "assetName": "SPDR S&P 500 ETF Trust",
+      "iconSrc": "https://cdn.ondo.finance/tokens/logos/spyon_160x160.png",
+      "tags": [
+        {
+          "categoryLayer": "1",
+          "categorySlug": "asset-class",
+          "categoryLabel": "Asset Class",
+          "tagSlug": "equities",
+          "tagLabel": "Equities"
+        },
+        {
+          "categoryLayer": "2",
+          "categorySlug": "instrument-type",
+          "categoryLabel": "Instrument Type",
+          "tagSlug": "etf",
+          "tagLabel": "ETF"
+        }
+      ],
+      "createdAt": 1767828526586,
+      "primaryMarket": {
+        "symbol": "SPYon",
+        "price": "612.50",
+        "priceChange24h": "5.10",
+        "priceChangePct24h": "0.84",
+        "priceHistory24h": [],
+        "totalHolders": 1000,
+        "sharesMultiplier": "1.0",
+        "tradableSessions": ["regular"]
+      },
+      "underlyingMarket": {
+        "ticker": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "priceHigh52w": "620.00",
+        "priceLow52w": "480.00",
+        "volume": "80000000",
+        "averageVolume": "75000000",
+        "sharesOutstanding": "900000000",
+        "marketCap": "550000000000"
+      },
+      "timestamp": 1779984704000,
+      "addresses": [
+        {
+          "chainName": "ETHEREUM",
+          "ondoGmNetworkChainId": "ethereum-1",
+          "address": "0xspy1111111111111111111111111111111111111",
+          "decimals": 18
+        }
+      ],
+      "tradable": true,
+      "pause": {
+        "status": "scheduled",
+        "type": "market-hours",
+        "reason": { "code": "weekend", "message": "Weekend market close" },
+        "start": "2026-05-30T20:00:00Z",
+        "end": "2026-06-01T13:30:00Z"
+      }
+    },
+    {
+      "symbol": "AGGon",
+      "ticker": "AGG",
+      "assetName": "iShares Core US Aggregate Bond ETF",
+      "iconSrc": "https://cdn.ondo.finance/tokens/logos/aggon_160x160.png",
+      "tags": [
+        {
+          "categoryLayer": "1",
+          "categorySlug": "asset-class",
+          "categoryLabel": "Asset Class",
+          "tagSlug": "fixed-income",
+          "tagLabel": "Fixed Income"
+        },
+        {
+          "categoryLayer": "2",
+          "categorySlug": "instrument-type",
+          "categoryLabel": "Instrument Type",
+          "tagSlug": "etf",
+          "tagLabel": "ETF"
+        }
+      ],
+      "createdAt": 1767828526586,
+      "primaryMarket": {
+        "symbol": "AGGon",
+        "price": "101.55",
+        "priceChange24h": "0.11",
+        "priceChangePct24h": "0.11",
+        "priceHistory24h": [],
+        "totalHolders": 200,
+        "sharesMultiplier": "1.0",
+        "tradableSessions": ["regular"]
+      },
+      "underlyingMarket": {
+        "ticker": "AGG",
+        "name": "iShares Core US Aggregate Bond ETF",
+        "priceHigh52w": "105.00",
+        "priceLow52w": "95.00",
+        "volume": "5000000",
+        "averageVolume": "6000000",
+        "sharesOutstanding": "500000000",
+        "marketCap": "50000000000"
+      },
+      "timestamp": 1779984704000,
+      "addresses": [
+        {
+          "chainName": "BSC",
+          "ondoGmNetworkChainId": "bsc-56",
+          "address": "0xagg2222222222222222222222222222222222222",
+          "decimals": 18
+        },
+        {
+          "chainName": null,
+          "ondoGmNetworkChainId": "solana-900",
+          "address": "AGGmYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo",
+          "decimals": 9
+        }
+      ],
+      "tradable": true,
+      "pause": null
+    }
+  ]
+}
